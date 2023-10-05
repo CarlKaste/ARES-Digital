@@ -1151,7 +1151,7 @@ GameObject:
   - component: {fileID: 87898794}
   - component: {fileID: 87898793}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2965,12 +2965,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87898792}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -4, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &92634029
 GameObject:
@@ -13263,7 +13263,7 @@ GameObject:
   - component: {fileID: 709649309}
   - component: {fileID: 709649308}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15077,12 +15077,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709649307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: -2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: -4, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &729341497
 GameObject:
@@ -40856,7 +40856,7 @@ GameObject:
   - component: {fileID: 1579144427}
   - component: {fileID: 1579144426}
   m_Layer: 0
-  m_Name: Cylinder (4)
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42670,12 +42670,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579144425}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: -4, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1598426430
 Mesh:
@@ -43022,7 +43022,7 @@ GameObject:
   - component: {fileID: 1651257511}
   - component: {fileID: 1651257510}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44836,12 +44836,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651257509}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -4, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652864274
 GameObject:
@@ -45211,7 +45211,7 @@ GameObject:
   - component: {fileID: 1688546107}
   - component: {fileID: 1688546106}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47025,12 +47025,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688546105}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: -2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -4, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1714607248
 Mesh:
@@ -50732,7 +50732,7 @@ GameObject:
   - component: {fileID: 1925144932}
   - component: {fileID: 1925144931}
   m_Layer: 0
-  m_Name: Cylinder (5)
+  m_Name: Powercell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52546,12 +52546,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925144930}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: -4, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1976149559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1928239845
 Mesh:
@@ -53300,6 +53300,12 @@ Transform:
   - {fileID: 323733975}
   - {fileID: 1556442185}
   - {fileID: 586298761}
+  - {fileID: 1688546111}
+  - {fileID: 87898798}
+  - {fileID: 1651257515}
+  - {fileID: 709649313}
+  - {fileID: 1579144431}
+  - {fileID: 1925144936}
   - {fileID: 523075239}
   - {fileID: 1569048723}
   - {fileID: 729341503}
@@ -56792,9 +56798,3 @@ SceneRoots:
   - {fileID: 9138252185011829506}
   - {fileID: 1976149559}
   - {fileID: 1772826959}
-  - {fileID: 1688546111}
-  - {fileID: 87898798}
-  - {fileID: 1651257515}
-  - {fileID: 709649313}
-  - {fileID: 1579144431}
-  - {fileID: 1925144936}
