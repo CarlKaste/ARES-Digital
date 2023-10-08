@@ -8495,7 +8495,7 @@ GameObject:
   - component: {fileID: 9147937663181287111}
   m_Layer: 0
   m_Name: Auto Hand Player Container
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11943,7 +11943,7 @@ MonoBehaviour:
   handRight: {fileID: 3939116891194113239}
   handLeft: {fileID: 3360379670842503825}
   useMovement: 1
-  maxMoveSpeed: 2.3
+  maxMoveSpeed: 3
   moveAcceleration: 10000
   rotationType: 0
   snapTurnAngle: 30

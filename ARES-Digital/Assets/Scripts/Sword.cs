@@ -8,7 +8,12 @@ public class Sword : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            
+            Debug.Log("Hit collider!");
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            if(enemy != null)
+            {
+                enemy.Die();
+            }
         }
     }
 }
