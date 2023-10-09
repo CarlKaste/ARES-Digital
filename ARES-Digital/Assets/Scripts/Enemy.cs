@@ -6,22 +6,24 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private float speed;
+    [SerializeField] Animator animator;
 
-    private bool seesPlayer = false;
+    private bool agroTowardsPlayer = false;
 
     public void Die()
     {
-        this.gameObject.SetActive(false);
+        agroTowardsPlayer = false;
+        animator.SetTrigger("SlashDeath");
     }
 
     public void WalkTowardsPlayer()
     {
-        seesPlayer = true;
+        agroTowardsPlayer = true;
     }
 
     private void Update()
     {
-        if (seesPlayer)
+        if (agroTowardsPlayer)
         {
             gameObject.transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed);
             this.transform.LookAt(player);

@@ -7696,6 +7696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2117389943}
   speed: 0.01
+  animator: {fileID: 0}
 --- !u!1 &282496417
 GameObject:
   m_ObjectHideFlags: 0
@@ -67672,7 +67673,7 @@ Animator:
   m_GameObject: {fileID: 919132149010729444}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 755c9a6d573540d49b43921ca1ffc61a, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57eedbcaea5f8464db2f19351908503f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -67697,8 +67698,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2117389943}
   speed: 0.01
---- !u!64 &5866666020984359206
-MeshCollider:
+  animator: {fileID: 5866666020984359204}
+--- !u!136 &5866666020984359206
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -67715,10 +67717,11 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1022625529149906712, guid: 755c9a6d573540d49b43921ca1ffc61a, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.35439074
+  m_Height: 1.9267254
+  m_Direction: 1
+  m_Center: {x: 0.00025689602, y: 0.9536469, z: 0}
 --- !u!4 &5901452234810999261
 Transform:
   m_ObjectHideFlags: 0
