@@ -10,15 +10,33 @@ public class Enemy : MonoBehaviour
 
     private bool agroTowardsPlayer = false;
 
-    public void Die()
+    public void SwordKill()
     {
+        GetComponent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("SlashDeath");
     }
 
-    public void WalkTowardsPlayer()
+    public void BurnKill()
     {
+        GetComponent<CapsuleCollider>().enabled = false;
+        agroTowardsPlayer = false;
+        animator.SetTrigger("BurnDeath");
+    }
+
+    IEnumerator EnemyAgroCoroutine()
+    {
+        animator.SetTrigger("Roar");
+        transform.LookAt(player);
+        yield return new WaitForSeconds(5f);
+        animator.SetBool("Walk", true);
         agroTowardsPlayer = true;
+        yield return null;
+    }
+
+    public void AgroTowardsPlayer()
+    {
+        StartCoroutine("EnemyAgroCoroutine");
     }
 
     private void Update()
