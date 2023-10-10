@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private float speed;
-    [SerializeField] Animator animator;
+    [SerializeField] private Animator animator;
 
     private bool agroTowardsPlayer = false;
 

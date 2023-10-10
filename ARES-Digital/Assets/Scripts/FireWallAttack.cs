@@ -14,6 +14,5 @@ public class FireWallAttack : MonoBehaviour
                 enemy.BurnKill();
             }
         }
-        this.gameObject.SetActive(false);
     }
 }
