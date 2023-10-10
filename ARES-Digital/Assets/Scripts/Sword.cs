@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
+    [SerializeField] private float swordDamage = 100f;
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))

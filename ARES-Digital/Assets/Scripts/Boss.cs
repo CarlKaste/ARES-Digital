@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Boss : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private float speed;
@@ -14,22 +14,13 @@ public class Enemy : MonoBehaviour
     {
         GetComponent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
-        animator.SetTrigger("SlashDeath");
-    }
-
-    public void BurnKill()
-    {
-        GetComponent<CapsuleCollider>().enabled = false;
-        agroTowardsPlayer = false;
-        animator.SetTrigger("BurnDeath");
+        animator.SetTrigger("Die");
     }
 
     IEnumerator AgroCoroutine()
     {
-        animator.SetTrigger("Roar");
-        transform.LookAt(player);
-        yield return new WaitForSeconds(5f);
-        animator.SetBool("Walk", true);
+        animator.SetTrigger("ActivateBoss");
+        yield return new WaitForSeconds(18f);
         agroTowardsPlayer = true;
     }
 
