@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16587,7 +16587,6 @@ MonoBehaviour:
   player: {fileID: 2117389943}
   speed: 0.01
   animator: {fileID: 706356397}
-  fireEffect: {fileID: 3406071895214373624, guid: 8598c37d9e917d64590c57ab8134029d, type: 3}
 --- !u!95 &706356397
 Animator:
   serializedVersion: 5
@@ -47295,7 +47294,6 @@ MonoBehaviour:
   player: {fileID: 2117389943}
   speed: 0.01
   animator: {fileID: 1481775710}
-  fireEffect: {fileID: 3406071895214373624, guid: 8598c37d9e917d64590c57ab8134029d, type: 3}
 --- !u!95 &1481775710
 Animator:
   serializedVersion: 5
@@ -62254,7 +62252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1896161290
 Light:
   m_ObjectHideFlags: 0
@@ -71383,7 +71381,6 @@ MonoBehaviour:
   player: {fileID: 2117389943}
   speed: 0.01
   animator: {fileID: 5866666020984359204}
-  fireEffect: {fileID: 3406071895214373624, guid: 8598c37d9e917d64590c57ab8134029d, type: 3}
 --- !u!136 &5866666020984359206
 CapsuleCollider:
   m_ObjectHideFlags: 0
