@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
 
     public void AgroTowardsPlayer()
     {
-        StartCoroutine("AgroCoroutine");
+        StartCoroutine(AgroCoroutine());
     }
 
     private void Update()

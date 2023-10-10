@@ -11,9 +11,20 @@ public class Sword : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+
             if(enemy != null)
             {
                 enemy.SwordKill();
+            }
+        }
+
+        if (collision.gameObject.CompareTag("Boss"))
+        {
+            Boss boss = collision.gameObject.GetComponent<Boss>();
+
+            if(boss != null)
+            {
+                boss.TakeDamage(swordDamage);
             }
         }
     }

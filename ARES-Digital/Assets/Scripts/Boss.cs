@@ -7,8 +7,15 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float speed;
     [SerializeField] private Animator animator;
-
+    [SerializeField] private float maxHealth;
+    
+    private float currentHealth;
     private bool agroTowardsPlayer = false;
+
+    private void Start()
+    {
+        currentHealth = maxHealth;
+    }
 
     public void SwordKill()
     {
@@ -27,6 +34,26 @@ public class Boss : MonoBehaviour
     public void AgroTowardsPlayer()
     {
         StartCoroutine("AgroCoroutine");
+    }
+
+    IEnumerator HitCoroutine()
+    {
+        agroTowardsPlayer = false;
+        animator.SetTrigger("Hit");
+        yield return new WaitForSeconds(5.5f);
+        agroTowardsPlayer = true;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+
+        if(currentHealth <= 0)
+        {
+            SwordKill();
+        }
+
+        StartCoroutine(HitCoroutine());
     }
 
     private void Update()

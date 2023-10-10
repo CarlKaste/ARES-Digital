@@ -11,7 +11,7 @@ public class SpawnExplotion : MonoBehaviour
     public void SpawnExplotionEffect()
     {
         effects[0] = Instantiate(explotionPrefab, this.transform.position, this.transform.rotation);
-        StartCoroutine("DespawnExplotionEffect");
+        StartCoroutine(DespawnExplotionEffect());
     }
 
     IEnumerator DespawnExplotionEffect()
