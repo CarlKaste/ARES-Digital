@@ -27,7 +27,7 @@ public class Boss : MonoBehaviour
     IEnumerator HitByFireCoroutine()
     {
         animator.SetTrigger("FireHit");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         agroTowardsPlayer = true;
     }
 
