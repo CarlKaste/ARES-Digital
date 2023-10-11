@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     public void SwordKill()
     {
+        StopAllCoroutines();
         GetComponent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("SlashDeath");
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
 
     public void BurnKill()
     {
+        StopAllCoroutines();
         GetComponent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("BurnDeath");

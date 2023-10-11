@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638326591720000000
+  lastModified: 638326593860000000
   FileSizes:
   - Name: Desktop
     Value: 1164
@@ -41,11 +41,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 2064
 --- !u!114 &-3488861941500435208
 MonoBehaviour:
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638326591720000000
+  lastModified: 638326593860000000
   FileSizes:
   - Name: Desktop
     Value: 482
@@ -82,10 +82,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638326591720000000
+  lastModified: 638326593860000000
   FileSizes:
   - Name: Desktop
-    Value: 208352
+    Value: 207008
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638326591720000000
+  cacheTime: 638326593860000000
   cacheVersion: 131607
 --- !u!114 &546093160783526578
 MonoBehaviour:
@@ -139,11 +139,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 2064
 --- !u!114 &2675749733974733869
 MonoBehaviour:
@@ -160,7 +160,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638326591720000000
+  lastModified: 638326593860000000
   FileSizes:
   - Name: Desktop
     Value: 482
@@ -186,11 +186,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 5064
 --- !u!114 &4983791415406262952
 MonoBehaviour:
@@ -207,7 +207,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638326591720000000
+  lastModified: 638326593860000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -233,11 +233,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 2064
 --- !u!114 &6080425945093776082
 MonoBehaviour:
@@ -260,9 +260,9 @@ MonoBehaviour:
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 3552
