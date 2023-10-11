@@ -15,10 +15,77 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638317773600000000
+  lastModified: 638326591720000000
   FileSizes:
   - Name: Desktop
-    Value: 700
+    Value: 1164
+  Exists: 1
+--- !u!114 &-3600454166896735541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Quarantine initiated
+  m_EditorClassIdentifier: 
+  Path: event:/Quarantine initiated
+  Guid:
+    Data1: -2137229623
+    Data2: 1097699951
+    Data3: 1683257473
+    Data4: -345523127
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2064
+--- !u!114 &-3488861941500435208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Mimetic Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
+  Name: Mimetic Sounds
+  StudioPath: bank:/Mimetic Sounds
+  lastModified: 638326591720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 482
+  Exists: 1
+--- !u!114 &-417431473674400195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Digetic Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
+  Name: Digetic Sounds
+  StudioPath: bank:/Digetic Sounds
+  lastModified: 638326591720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 208352
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -35,14 +102,96 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -6038935848913485442}
   - {fileID: 4983791415406262952}
-  EditorEvents: []
+  - {fileID: -417431473674400195}
+  - {fileID: 2675749733974733869}
+  - {fileID: -3488861941500435208}
+  EditorEvents:
+  - {fileID: 546093160783526578}
+  - {fileID: 6080425945093776082}
+  - {fileID: 4544112883534868739}
+  - {fileID: -3600454166896735541}
+  - {fileID: 5449092430154327503}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638317773600000000
+  cacheTime: 638326591720000000
   cacheVersion: 131607
+--- !u!114 &546093160783526578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Threat neutralized!
+  m_EditorClassIdentifier: 
+  Path: event:/Threat neutralized!
+  Guid:
+    Data1: 1188843036
+    Data2: 1290374653
+    Data3: -1495830085
+    Data4: -1393374022
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2064
+--- !u!114 &2675749733974733869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Non-Digetic sounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
+  Name: Non-Digetic sounds
+  StudioPath: bank:/Non-Digetic sounds
+  lastModified: 638326591720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 482
+  Exists: 1
+--- !u!114 &4544112883534868739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Warning! Security breached!
+  m_EditorClassIdentifier: 
+  Path: event:/Warning! Security breached!
+  Guid:
+    Data1: 1653343072
+    Data2: 1244707906
+    Data3: 1198724243
+    Data4: -1990884159
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5064
 --- !u!114 &4983791415406262952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +207,62 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638317773600000000
+  lastModified: 638326591720000000
   FileSizes:
   - Name: Desktop
     Value: 1012
   Exists: 1
+--- !u!114 &5449092430154327503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Quarantine lifted
+  m_EditorClassIdentifier: 
+  Path: event:/Quarantine lifted
+  Guid:
+    Data1: 964981492
+    Data2: 1268106213
+    Data3: 559738245
+    Data4: 451167478
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2064
+--- !u!114 &6080425945093776082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Warning! Warning! Virus presence detected!
+  m_EditorClassIdentifier: 
+  Path: event:/Warning! Warning! Virus presence detected!
+  Guid:
+    Data1: 412836697
+    Data2: 1265806443
+    Data3: -1323492708
+    Data4: 1813829733
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3552
