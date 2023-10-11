@@ -5,12 +5,12 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    [SerializeField] private float speed;
     [SerializeField] private Animator animator;
     [SerializeField] private float maxHealth;
 
     private float currentHealth;
-    private bool agroTowardsPlayer = false;
+
+    public bool agroTowardsPlayer = false;
 
 
     private void Start()
@@ -18,11 +18,25 @@ public class Boss : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void SwordKill()
+    public void Die()
     {
         GetComponentInParent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("Die");
+    }
+    IEnumerator HitByFireCoroutine()
+    {
+        animator.SetTrigger("FireHit");
+        yield return new WaitForSeconds(3f);
+        agroTowardsPlayer = true;
+    }
+
+    IEnumerator AttackCoroutine()
+    {
+        agroTowardsPlayer = false;
+        animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(4f);
+        agroTowardsPlayer = true;
     }
 
     IEnumerator AgroCoroutine()
@@ -34,15 +48,7 @@ public class Boss : MonoBehaviour
 
     public void AgroTowardsPlayer()
     {
-        StartCoroutine("AgroCoroutine");
-    }
-
-    IEnumerator HitCoroutine()
-    {
-        agroTowardsPlayer = false;
-        animator.SetTrigger("Hit");
-        yield return new WaitForSeconds(5.5f);
-        agroTowardsPlayer = true;
+        StartCoroutine(AgroCoroutine());
     }
 
     public void TakeDamage(float damage)
@@ -51,12 +57,12 @@ public class Boss : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            SwordKill();
+            Die();
             agroTowardsPlayer = false;
         }
         else
         {
-            StartCoroutine(HitCoroutine());
+            StartCoroutine(HitByFireCoroutine());
         }
     }
 
@@ -64,8 +70,13 @@ public class Boss : MonoBehaviour
     {
         if (agroTowardsPlayer)
         {
-            transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed);
             this.transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
+
+            float distanceTowardsPlayer = Vector3.Distance(this.transform.position, player.transform.position);
+            if(distanceTowardsPlayer < 5f)
+            {
+                StartCoroutine(AttackCoroutine());
+            }
         }
     }
 }

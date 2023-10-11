@@ -118513,7 +118513,7 @@ Transform:
   m_GameObject: {fileID: 8568340248818523409}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 44, y: 3.9999928, z: 12.5}
+  m_LocalPosition: {x: 38.75, y: 3.9999928, z: 12.5}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -118535,7 +118535,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2004513801}
-  speed: 0.01
   animator: {fileID: 4983664316000503264}
   maxHealth: 300
 --- !u!4 &8606463506625711749
