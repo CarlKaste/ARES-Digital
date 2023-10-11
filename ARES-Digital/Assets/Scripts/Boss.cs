@@ -8,9 +8,10 @@ public class Boss : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Animator animator;
     [SerializeField] private float maxHealth;
-    
+
     private float currentHealth;
     private bool agroTowardsPlayer = false;
+
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class Boss : MonoBehaviour
 
     public void SwordKill()
     {
-        GetComponent<CapsuleCollider>().enabled = false;
+        GetComponentInParent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("Die");
     }
@@ -51,17 +52,20 @@ public class Boss : MonoBehaviour
         if(currentHealth <= 0)
         {
             SwordKill();
+            agroTowardsPlayer = false;
         }
-
-        StartCoroutine(HitCoroutine());
+        else
+        {
+            StartCoroutine(HitCoroutine());
+        }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (agroTowardsPlayer)
         {
-            gameObject.transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed);
-            this.transform.LookAt(player);
+            transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed);
+            this.transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
         }
     }
 }
