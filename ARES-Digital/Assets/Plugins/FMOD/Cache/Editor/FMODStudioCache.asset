@@ -1,5 +1,140 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9070889003293428915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 18
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 18
+  Guid:
+    Data1: 1649231463
+    Data2: 1298177179
+    Data3: -906544487
+    Data4: -825679023
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3552
+--- !u!114 &-7453768125309417503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 22
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 22
+  Guid:
+    Data1: -548895273
+    Data2: 1157741309
+    Data3: -1232740477
+    Data4: 1425432241
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3048
+--- !u!114 &-6921334785802093435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 14
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 14
+  Guid:
+    Data1: 210268359
+    Data2: 1180173870
+    Data3: -224991834
+    Data4: -133484405
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54048
+--- !u!114 &-6300847686274133045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 19
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 19
+  Guid:
+    Data1: -316310375
+    Data2: 1275557642
+    Data3: -2034412911
+    Data4: -97399218
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4056
+--- !u!114 &-6247281451499386068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 5
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 5
+  Guid:
+    Data1: -1594927481
+    Data2: 1107249983
+    Data3: -518581057
+    Data4: 40806863
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2568
 --- !u!114 &-6038935848913485442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,12 +150,12 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638326593860000000
+  lastModified: 638327393740000000
   FileSizes:
   - Name: Desktop
-    Value: 1164
+    Value: 2328
   Exists: 1
---- !u!114 &-3600454166896735541
+--- !u!114 &-5258780458445231215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,16 +165,97 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Quarantine initiated
+  m_Name: event:/Six's voice lines/Six's voice line 25
   m_EditorClassIdentifier: 
-  Path: event:/Quarantine initiated
+  Path: event:/Six's voice lines/Six's voice line 25
+  Guid:
+    Data1: 1377771673
+    Data2: 1241287378
+    Data3: 1732338104
+    Data4: 941327826
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17568
+--- !u!114 &-4908478067720877007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 2
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 2
+  Guid:
+    Data1: 60018325
+    Data2: 1327879677
+    Data3: 319572107
+    Data4: 919677224
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6552
+--- !u!114 &-4792007361046967405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 23
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 23
+  Guid:
+    Data1: 568438765
+    Data2: 1329411871
+    Data3: 907617204
+    Data4: -1635005961
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29064
+--- !u!114 &-4282201474594338638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Quarantine initiated
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Quarantine initiated
   Guid:
     Data1: -2137229623
     Data2: 1097699951
     Data3: 1683257473
     Data4: -345523127
   Banks:
-  - {fileID: -417431473674400195}
+  - {fileID: 2675749733974733869}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -47,6 +263,114 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2064
+--- !u!114 &-4108587682486629027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Warning! Security breached!
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Warning! Security breached!
+  Guid:
+    Data1: 1653343072
+    Data2: 1244707906
+    Data3: 1198724243
+    Data4: -1990884159
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5064
+--- !u!114 &-4045248053647932156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 11
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 11
+  Guid:
+    Data1: -1175769049
+    Data2: 1339917061
+    Data3: 145961905
+    Data4: 1254316871
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25056
+--- !u!114 &-3790702590867095022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 24
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 24
+  Guid:
+    Data1: 336162303
+    Data2: 1192384141
+    Data3: 112623511
+    Data4: 2044661811
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13560
+--- !u!114 &-3640976488876622699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 15
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 15
+  Guid:
+    Data1: -385909099
+    Data2: 1085143751
+    Data3: 515358336
+    Data4: -1101464677
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7560
 --- !u!114 &-3488861941500435208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,11 +386,146 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638326593860000000
+  lastModified: 638327393740000000
   FileSizes:
   - Name: Desktop
     Value: 482
   Exists: 1
+--- !u!114 &-1431050041126051619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 16
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 16
+  Guid:
+    Data1: -1329047425
+    Data2: 1183391701
+    Data3: 372083355
+    Data4: 373359070
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12048
+--- !u!114 &-1218183959920087941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 13
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 13
+  Guid:
+    Data1: -2075793413
+    Data2: 1288710864
+    Data3: -19959386
+    Data4: -1482127733
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3552
+--- !u!114 &-1189995217393614609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 7
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 7
+  Guid:
+    Data1: 101831868
+    Data2: 1261746479
+    Data3: 2083942805
+    Data4: -1329161449
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10056
+--- !u!114 &-1179238240506138804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Virus sounds/Virus burn death
+  m_EditorClassIdentifier: 
+  Path: event:/Virus sounds/Virus burn death
+  Guid:
+    Data1: -668477420
+    Data2: 1140426014
+    Data3: -16014701
+    Data4: -1217276896
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2568
+--- !u!114 &-1096027359616669533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 17
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 17
+  Guid:
+    Data1: -819247877
+    Data2: 1330678878
+    Data3: 346498726
+    Data4: 1517198800
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9048
 --- !u!114 &-417431473674400195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,11 +541,38 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638326593860000000
+  lastModified: 638327393740000000
   FileSizes:
   - Name: Desktop
-    Value: 207008
+    Value: 3070016
   Exists: 1
+--- !u!114 &-280662537669367111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 10
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 10
+  Guid:
+    Data1: 1770806550
+    Data2: 1205540972
+    Data3: 724756891
+    Data4: -1135940962
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42552
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,19 +592,49 @@ MonoBehaviour:
   - {fileID: 2675749733974733869}
   - {fileID: -3488861941500435208}
   EditorEvents:
-  - {fileID: 546093160783526578}
-  - {fileID: 6080425945093776082}
-  - {fileID: 4544112883534868739}
-  - {fileID: -3600454166896735541}
-  - {fileID: 5449092430154327503}
+  - {fileID: 6589553271884487984}
+  - {fileID: 1436929335951238571}
+  - {fileID: 4290282744273430939}
+  - {fileID: -1179238240506138804}
+  - {fileID: -280662537669367111}
+  - {fileID: 2534271383132475083}
+  - {fileID: -4045248053647932156}
+  - {fileID: 6397377284739925158}
+  - {fileID: 1778074037410268948}
+  - {fileID: -9070889003293428915}
+  - {fileID: 3561397353245539088}
+  - {fileID: 3545577341979120795}
+  - {fileID: 4993979492757448234}
+  - {fileID: -1431050041126051619}
+  - {fileID: -6247281451499386068}
+  - {fileID: 3261962756591267814}
+  - {fileID: 912807604592049936}
+  - {fileID: -3640976488876622699}
+  - {fileID: -4908478067720877007}
+  - {fileID: -5258780458445231215}
+  - {fileID: -6300847686274133045}
+  - {fileID: -1189995217393614609}
+  - {fileID: -6921334785802093435}
+  - {fileID: -7453768125309417503}
+  - {fileID: 8451301706828289639}
+  - {fileID: -4792007361046967405}
+  - {fileID: 8635919644434715846}
+  - {fileID: -1096027359616669533}
+  - {fileID: -1218183959920087941}
+  - {fileID: -3790702590867095022}
+  - {fileID: 3734588968424255726}
+  - {fileID: 6125758584067710011}
+  - {fileID: -4108587682486629027}
+  - {fileID: -4282201474594338638}
+  - {fileID: 2620808838511112697}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638326593860000000
+  cacheTime: 638327393740000000
   cacheVersion: 131607
---- !u!114 &546093160783526578
+--- !u!114 &912807604592049936
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,16 +644,124 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Threat neutralized!
+  m_Name: event:/Six's voice lines/Six's voice line 12
   m_EditorClassIdentifier: 
-  Path: event:/Threat neutralized!
+  Path: event:/Six's voice lines/Six's voice line 12
   Guid:
-    Data1: 1188843036
-    Data2: 1290374653
-    Data3: -1495830085
-    Data4: -1393374022
+    Data1: 87904147
+    Data2: 1266733210
+    Data3: -1252297833
+    Data4: 2045022262
   Banks:
   - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19560
+--- !u!114 &1436929335951238571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 1
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 1
+  Guid:
+    Data1: 1300402443
+    Data2: 1250394458
+    Data3: 1938172066
+    Data4: 771278485
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4560
+--- !u!114 &1778074037410268948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Virus sounds/1st boss death sound
+  m_EditorClassIdentifier: 
+  Path: event:/Virus sounds/1st boss death sound
+  Guid:
+    Data1: 493288287
+    Data2: 1328410634
+    Data3: -1878041693
+    Data4: 1490250571
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2568
+--- !u!114 &2534271383132475083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Virus sounds/1st boss hit sound
+  m_EditorClassIdentifier: 
+  Path: event:/Virus sounds/1st boss hit sound
+  Guid:
+    Data1: 1252346909
+    Data2: 1219966299
+    Data3: 1080069303
+    Data4: -850020862
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1560
+--- !u!114 &2620808838511112697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Quarantine lifted
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Quarantine lifted
+  Guid:
+    Data1: 964981492
+    Data2: 1268106213
+    Data3: 559738245
+    Data4: 451167478
+  Banks:
+  - {fileID: 2675749733974733869}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -160,12 +784,12 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638326593860000000
+  lastModified: 638327393740000000
   FileSizes:
   - Name: Desktop
-    Value: 482
+    Value: 207008
   Exists: 1
---- !u!114 &4544112883534868739
+--- !u!114 &3261962756591267814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,23 +799,131 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Warning! Security breached!
+  m_Name: event:/Virus sounds/Virus sword hit death
   m_EditorClassIdentifier: 
-  Path: event:/Warning! Security breached!
+  Path: event:/Virus sounds/Virus sword hit death
   Guid:
-    Data1: 1653343072
-    Data2: 1244707906
-    Data3: 1198724243
-    Data4: -1990884159
+    Data1: 1478978444
+    Data2: 1130320476
+    Data3: 1184909748
+    Data4: -1174793902
   Banks:
   - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1056
+--- !u!114 &3545577341979120795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 20
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 20
+  Guid:
+    Data1: 1021408634
+    Data2: 1223596939
+    Data3: -907291256
+    Data4: -1551307237
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18048
+--- !u!114 &3561397353245539088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 3
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 3
+  Guid:
+    Data1: 654258548
+    Data2: 1153109892
+    Data3: 1270516613
+    Data4: 1823509632
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13056
+--- !u!114 &3734588968424255726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Threat neutralized!
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Threat neutralized!
+  Guid:
+    Data1: 1188843036
+    Data2: 1290374653
+    Data3: -1495830085
+    Data4: -1393374022
+  Banks:
+  - {fileID: 2675749733974733869}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 5064
+  Length: 2064
+--- !u!114 &4290282744273430939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Virus sounds/Virus roar
+  m_EditorClassIdentifier: 
+  Path: event:/Virus sounds/Virus roar
+  Guid:
+    Data1: 11486991
+    Data2: 1138453811
+    Data3: 2125728391
+    Data4: 593551432
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4056
 --- !u!114 &4983791415406262952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,12 +939,12 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638326593860000000
+  lastModified: 638327393740000000
   FileSizes:
   - Name: Desktop
     Value: 1012
   Exists: 1
---- !u!114 &5449092430154327503
+--- !u!114 &4993979492757448234
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,24 +954,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Quarantine lifted
+  m_Name: event:/Six's voice lines/Six's voice line 9
   m_EditorClassIdentifier: 
-  Path: event:/Quarantine lifted
+  Path: event:/Six's voice lines/Six's voice line 9
   Guid:
-    Data1: 964981492
-    Data2: 1268106213
-    Data3: 559738245
-    Data4: 451167478
+    Data1: 1741692287
+    Data2: 1221125356
+    Data3: 1640050065
+    Data4: 1556898367
   Banks:
   - {fileID: -417431473674400195}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2064
---- !u!114 &6080425945093776082
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2568
+--- !u!114 &6125758584067710011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,16 +981,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Warning! Warning! Virus presence detected!
+  m_Name: event:/Computer voice/Warning! Warning! Virus presence detected!
   m_EditorClassIdentifier: 
-  Path: event:/Warning! Warning! Virus presence detected!
+  Path: event:/Computer voice/Warning! Warning! Virus presence detected!
   Guid:
     Data1: 412836697
     Data2: 1265806443
     Data3: -1323492708
     Data4: 1813829733
   Banks:
-  - {fileID: -417431473674400195}
+  - {fileID: 2675749733974733869}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -266,3 +998,111 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3552
+--- !u!114 &6397377284739925158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 8
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 8
+  Guid:
+    Data1: -235086799
+    Data2: 1285760638
+    Data3: 158498194
+    Data4: -273170065
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13056
+--- !u!114 &6589553271884487984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 6
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 6
+  Guid:
+    Data1: 868047877
+    Data2: 1134648028
+    Data3: -326582344
+    Data4: -610500942
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10560
+--- !u!114 &8451301706828289639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 21
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 21
+  Guid:
+    Data1: -906987031
+    Data2: 1116085898
+    Data3: -720040024
+    Data4: 1013548802
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8064
+--- !u!114 &8635919644434715846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Six's voice lines/Six's voice line 4
+  m_EditorClassIdentifier: 
+  Path: event:/Six's voice lines/Six's voice line 4
+  Guid:
+    Data1: -1548698384
+    Data2: 1313955633
+    Data3: -1374709864
+    Data4: -5645655
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7056
