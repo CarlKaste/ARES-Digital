@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject deathEffect;
+    [SerializeField] private GameObject swordDeathSound;
+    [SerializeField] private GameObject spawnSound;
 
     private Transform player;
     private bool agroTowardsPlayer = false;
@@ -38,7 +40,8 @@ public class Enemy : MonoBehaviour
     IEnumerator Burned()
     {
         GetComponent<CapsuleCollider>().enabled = false;
-        enemyDies();
+        if(enemyDies != null)
+            enemyDies();
         StopCoroutine(AgroCoroutine());
         agroTowardsPlayer = false;
         animator.SetTrigger("BurnDeath");
@@ -52,7 +55,9 @@ public class Enemy : MonoBehaviour
     IEnumerator Killed()
     {
         GetComponent<CapsuleCollider>().enabled = false;
-        enemyDies();
+        swordDeathSound.SetActive(true);
+        if (enemyDies != null)
+            enemyDies();
         StopCoroutine(AgroCoroutine());
         agroTowardsPlayer = false;
         animator.SetTrigger("SlashDeath");

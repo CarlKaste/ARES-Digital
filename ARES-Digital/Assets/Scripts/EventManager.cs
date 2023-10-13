@@ -33,10 +33,10 @@ public class EventManager : MonoBehaviour
 
     private void OnEnable()
     {
-        if(firstWaveActive)
+        if(firstWaveActive == true)
             Enemy.enemyDies += UpdateFirstArray;
 
-        if(secondWaveActive)
+        if(secondWaveActive == true)
             Enemy.enemyDies += UpdateSecondArray;
     }
 
