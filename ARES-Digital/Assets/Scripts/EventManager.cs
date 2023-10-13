@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyVirusPrefab;
     [SerializeField] private GameObject[] firstEnemyWave;
     [SerializeField] private GameObject[] secondEnemyWave;
     [SerializeField] private GameObject[] thirdEnemyWave;
 
+    private PlaySteps steps;
     public bool firstWaveActive = false;
     public bool secondWaveActive = false;
     public bool thirdWaveActive = false;
+
+    private void Start()
+    {
+        steps = FindObjectOfType<EventManager>().GetComponent<PlaySteps>();
+    }
 
     private void Update()
     {
         if (firstWaveActive && firstEnemyWave.Length == 0)
         {
             firstWaveActive = false;
-
+            steps.PlayStepIndex(2);
         }
 
         if (secondWaveActive && secondEnemyWave.Length == 0)
@@ -77,6 +82,7 @@ public class EventManager : MonoBehaviour
     {
         foreach (GameObject enemy in firstEnemyWave)
         {
+            firstWaveActive = true;
             enemy.SetActive(true);
         }
     }
@@ -85,6 +91,7 @@ public class EventManager : MonoBehaviour
     {
         foreach (GameObject enemy in secondEnemyWave)
         {
+            secondWaveActive = true;
             enemy.SetActive(true);
         }
     }
@@ -93,6 +100,7 @@ public class EventManager : MonoBehaviour
     {
         foreach (GameObject enemy in thirdEnemyWave)
         {
+            thirdWaveActive = true;
             enemy.SetActive(true);
         }
     }

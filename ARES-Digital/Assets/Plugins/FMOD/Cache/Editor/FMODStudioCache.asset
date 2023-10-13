@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3552
+--- !u!114 &-8519835431026390577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/First message
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/First message
+  Guid:
+    Data1: 412836697
+    Data2: 1265806443
+    Data3: -1323492708
+    Data4: 1813829733
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3552
 --- !u!114 &-7453768125309417503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +81,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3048
+--- !u!114 &-7214641223706157169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Second message
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Second message
+  Guid:
+    Data1: 1653343072
+    Data2: 1244707906
+    Data3: 1198724243
+    Data4: -1990884159
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5064
 --- !u!114 &-6921334785802093435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +189,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2568
+--- !u!114 &-6237026431308119676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Approching the lookout
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Approching the lookout
+  Guid:
+    Data1: 1713600383
+    Data2: 1311342249
+    Data3: -1434788185
+    Data4: -848351653
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7662
 --- !u!114 &-6038935848913485442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,10 +231,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327393740000000
+  lastModified: 638327619620000000
   FileSizes:
   - Name: Desktop
-    Value: 2328
+    Value: 2588
   Exists: 1
 --- !u!114 &-5258780458445231215
 MonoBehaviour:
@@ -236,60 +317,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29064
---- !u!114 &-4282201474594338638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer voice/Quarantine initiated
-  m_EditorClassIdentifier: 
-  Path: event:/Computer voice/Quarantine initiated
-  Guid:
-    Data1: -2137229623
-    Data2: 1097699951
-    Data3: 1683257473
-    Data4: -345523127
-  Banks:
-  - {fileID: 2675749733974733869}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2064
---- !u!114 &-4108587682486629027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer voice/Warning! Security breached!
-  m_EditorClassIdentifier: 
-  Path: event:/Computer voice/Warning! Security breached!
-  Guid:
-    Data1: 1653343072
-    Data2: 1244707906
-    Data3: 1198724243
-    Data4: -1990884159
-  Banks:
-  - {fileID: 2675749733974733869}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5064
 --- !u!114 &-4045248053647932156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +371,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13560
+--- !u!114 &-3692067808909550608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Force Field
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/Force Field
+  Guid:
+    Data1: -1995254545
+    Data2: 1327154163
+    Data3: -489138277
+    Data4: -1005079417
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4056
 --- !u!114 &-3640976488876622699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,11 +440,65 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638327393740000000
+  lastModified: 638327619620000000
   FileSizes:
   - Name: Desktop
-    Value: 482
+    Value: 22368
   Exists: 1
+--- !u!114 &-3429539900267449644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Fifth message
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Fifth message
+  Guid:
+    Data1: 964981492
+    Data2: 1268106213
+    Data3: 559738245
+    Data4: 451167478
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2064
+--- !u!114 &-2638477694427821535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Sword Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/Sword Hit
+  Guid:
+    Data1: 1175610865
+    Data2: 1294318560
+    Data3: 478314414
+    Data4: -86923575
+  Banks:
+  - {fileID: -3488861941500435208}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1312
 --- !u!114 &-1431050041126051619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,10 +649,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638327393740000000
+  lastModified: 638327619620000000
   FileSizes:
   - Name: Desktop
-    Value: 3070016
+    Value: 3118720
   Exists: 1
 --- !u!114 &-280662537669367111
 MonoBehaviour:
@@ -622,18 +730,51 @@ MonoBehaviour:
   - {fileID: -1096027359616669533}
   - {fileID: -1218183959920087941}
   - {fileID: -3790702590867095022}
-  - {fileID: 3734588968424255726}
-  - {fileID: 6125758584067710011}
-  - {fileID: -4108587682486629027}
-  - {fileID: -4282201474594338638}
-  - {fileID: 2620808838511112697}
+  - {fileID: 2110825273722952218}
+  - {fileID: -8519835431026390577}
+  - {fileID: -7214641223706157169}
+  - {fileID: 298470053796961168}
+  - {fileID: -3429539900267449644}
+  - {fileID: 1863414857777655852}
+  - {fileID: -3692067808909550608}
+  - {fileID: -6237026431308119676}
+  - {fileID: 2966713034466317906}
+  - {fileID: 6007362573086475715}
+  - {fileID: -2638477694427821535}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638327393740000000
+  cacheTime: 638327619620000000
   cacheVersion: 131607
+--- !u!114 &298470053796961168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Third message
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Third message
+  Guid:
+    Data1: -2137229623
+    Data2: 1097699951
+    Data3: 1683257473
+    Data4: -345523127
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2064
 --- !u!114 &912807604592049936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +856,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2568
+--- !u!114 &1863414857777655852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/Door
+  Guid:
+    Data1: -370291525
+    Data2: 1243700642
+    Data3: -1141553498
+    Data4: -1376293631
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3048
+--- !u!114 &2110825273722952218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer voice/Forth message
+  m_EditorClassIdentifier: 
+  Path: event:/Computer voice/Forth message
+  Guid:
+    Data1: 1188843036
+    Data2: 1290374653
+    Data3: -1495830085
+    Data4: -1393374022
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2064
 --- !u!114 &2534271383132475083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,33 +937,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1560
---- !u!114 &2620808838511112697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer voice/Quarantine lifted
-  m_EditorClassIdentifier: 
-  Path: event:/Computer voice/Quarantine lifted
-  Guid:
-    Data1: 964981492
-    Data2: 1268106213
-    Data3: 559738245
-    Data4: 451167478
-  Banks:
-  - {fileID: 2675749733974733869}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2064
 --- !u!114 &2675749733974733869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,11 +952,38 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638327393740000000
+  lastModified: 638327619620000000
   FileSizes:
   - Name: Desktop
-    Value: 207008
+    Value: 719296
   Exists: 1
+--- !u!114 &2966713034466317906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Boss battle music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Boss battle music
+  Guid:
+    Data1: -1288713474
+    Data2: 1286762264
+    Data3: -729572970
+    Data4: 2105909148
+  Banks:
+  - {fileID: 2675749733974733869}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 34000
 --- !u!114 &3261962756591267814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,33 +1065,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13056
---- !u!114 &3734588968424255726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer voice/Threat neutralized!
-  m_EditorClassIdentifier: 
-  Path: event:/Computer voice/Threat neutralized!
-  Guid:
-    Data1: 1188843036
-    Data2: 1290374653
-    Data3: -1495830085
-    Data4: -1393374022
-  Banks:
-  - {fileID: 2675749733974733869}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2064
 --- !u!114 &4290282744273430939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,7 +1107,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327393740000000
+  lastModified: 638327619620000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -971,7 +1139,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2568
---- !u!114 &6125758584067710011
+--- !u!114 &6007362573086475715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -981,23 +1149,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Computer voice/Warning! Warning! Virus presence detected!
+  m_Name: event:/Interactables/Hand Scanner
   m_EditorClassIdentifier: 
-  Path: event:/Computer voice/Warning! Warning! Virus presence detected!
+  Path: event:/Interactables/Hand Scanner
   Guid:
-    Data1: 412836697
-    Data2: 1265806443
-    Data3: -1323492708
-    Data4: 1813829733
+    Data1: 1666247340
+    Data2: 1332660279
+    Data3: -62801505
+    Data4: 1943970719
   Banks:
-  - {fileID: 2675749733974733869}
+  - {fileID: -3488861941500435208}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 3552
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1187
 --- !u!114 &6397377284739925158
 MonoBehaviour:
   m_ObjectHideFlags: 0
