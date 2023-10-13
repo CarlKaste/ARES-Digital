@@ -6,12 +6,10 @@ public class EventManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] firstEnemyWave;
     [SerializeField] private GameObject[] secondEnemyWave;
-    [SerializeField] private GameObject[] thirdEnemyWave;
 
     private PlaySteps steps;
     public bool firstWaveActive = false;
     public bool secondWaveActive = false;
-    public bool thirdWaveActive = false;
 
     private void Start()
     {
@@ -29,13 +27,7 @@ public class EventManager : MonoBehaviour
         if (secondWaveActive && secondEnemyWave.Length == 0)
         {
             secondWaveActive = false;
-
-        }
-
-        if (thirdWaveActive && thirdEnemyWave.Length == 0)
-        {
-            thirdWaveActive = false;
-
+            steps.PlayStepIndex(6);
         }
     }
 
@@ -46,9 +38,6 @@ public class EventManager : MonoBehaviour
 
         if(secondWaveActive)
             Enemy.enemyDies += UpdateSecondArray;
-
-        if(thirdWaveActive)
-            Enemy.enemyDies += UpdateThirdArray;
     }
 
     private void OnDisable()
@@ -58,9 +47,6 @@ public class EventManager : MonoBehaviour
 
         if (secondWaveActive)
             Enemy.enemyDies -= UpdateSecondArray;
-
-        if (thirdWaveActive)
-            Enemy.enemyDies -= UpdateThirdArray;
     }
 
     public void UpdateFirstArray()
@@ -71,11 +57,6 @@ public class EventManager : MonoBehaviour
     public void UpdateSecondArray()
     {
         Destroy(secondEnemyWave[secondEnemyWave.Length]);
-    }
-
-    public void UpdateThirdArray()
-    {
-        Destroy(thirdEnemyWave[thirdEnemyWave.Length]);
     }
 
     public void ActivateFirstEnemyWave()
@@ -92,15 +73,6 @@ public class EventManager : MonoBehaviour
         foreach (GameObject enemy in secondEnemyWave)
         {
             secondWaveActive = true;
-            enemy.SetActive(true);
-        }
-    }
-
-    public void ActivateThirdEnemyWave()
-    {
-        foreach (GameObject enemy in thirdEnemyWave)
-        {
-            thirdWaveActive = true;
             enemy.SetActive(true);
         }
     }

@@ -231,7 +231,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327619620000000
+  lastModified: 638327666000000000
   FileSizes:
   - Name: Desktop
     Value: 2588
@@ -440,7 +440,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638327619620000000
+  lastModified: 638327666000000000
   FileSizes:
   - Name: Desktop
     Value: 22368
@@ -649,7 +649,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638327619620000000
+  lastModified: 638327666000000000
   FileSizes:
   - Name: Desktop
     Value: 3118720
@@ -746,7 +746,7 @@ MonoBehaviour:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638327619620000000
+  cacheTime: 638327666000000000
   cacheVersion: 131607
 --- !u!114 &298470053796961168
 MonoBehaviour:
@@ -909,7 +909,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2064
+  Length: 3564
 --- !u!114 &2534271383132475083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,7 +952,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638327619620000000
+  lastModified: 638327666000000000
   FileSizes:
   - Name: Desktop
     Value: 719296
@@ -1107,7 +1107,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327619620000000
+  lastModified: 638327666000000000
   FileSizes:
   - Name: Desktop
     Value: 1012

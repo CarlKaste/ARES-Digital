@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SwordTriggerZone : MonoBehaviour
+public class TriggerZone : MonoBehaviour
 {
     [SerializeField] private UnityEvent myEvent;
 
