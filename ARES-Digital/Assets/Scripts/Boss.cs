@@ -27,7 +27,9 @@ public class Boss : MonoBehaviour
     IEnumerator HitByFireCoroutine()
     {
         animator.SetTrigger("FireHit");
+
         yield return new WaitForSeconds(2f);
+
         agroTowardsPlayer = true;
     }
 
@@ -35,14 +37,18 @@ public class Boss : MonoBehaviour
     {
         agroTowardsPlayer = false;
         animator.SetTrigger("Attack");
+
         yield return new WaitForSeconds(4f);
+
         agroTowardsPlayer = true;
     }
 
     IEnumerator AgroCoroutine()
     {
         animator.SetTrigger("ActivateBoss");
+
         yield return new WaitForSeconds(18f);
+
         agroTowardsPlayer = true;
     }
 

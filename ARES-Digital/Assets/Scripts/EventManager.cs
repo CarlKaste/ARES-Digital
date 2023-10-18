@@ -31,32 +31,14 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        if(firstWaveActive == true)
-            Enemy.enemyDies += UpdateFirstArray;
-
-        if(secondWaveActive == true)
-            Enemy.enemyDies += UpdateSecondArray;
-    }
-
-    private void OnDisable()
-    {
-        if (firstWaveActive)
-            Enemy.enemyDies -= UpdateFirstArray;
-
-        if (secondWaveActive)
-            Enemy.enemyDies -= UpdateSecondArray;
-    }
-
     public void UpdateFirstArray()
     {
-        Destroy(firstEnemyWave[firstEnemyWave.Length]);
+        Destroy(firstEnemyWave[firstEnemyWave.Length - 1]);
     }
 
     public void UpdateSecondArray()
     {
-        Destroy(secondEnemyWave[secondEnemyWave.Length]);
+        Destroy(secondEnemyWave[secondEnemyWave.Length - 1]);
     }
 
     public void ActivateFirstEnemyWave()
