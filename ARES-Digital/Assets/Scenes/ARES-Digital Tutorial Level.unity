@@ -37771,16 +37771,16 @@ MonoBehaviour:
     time: 100
     hasPlayed: 0
   - namn: Entered the room with the bracelet
-    time: 226
+    time: 260
     hasPlayed: 0
   - namn: Picked up the bracelet
-    time: 234.5167
+    time: 268.5167
     hasPlayed: 0
   - namn: Used the bracelet
-    time: 247
+    time: 281
     hasPlayed: 0
   - namn: Killed the last virus in the area
-    time: 262
+    time: 296
     hasPlayed: 0
 --- !u!114 &1013414778
 MonoBehaviour:

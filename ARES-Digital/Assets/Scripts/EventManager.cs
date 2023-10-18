@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    [SerializeField] private GameObject[] firstEnemyWave;
-    [SerializeField] private GameObject[] secondEnemyWave;
+    [SerializeField] private List<GameObject> firstEnemyWave;
+    [SerializeField] private List<GameObject> secondEnemyWave;
 
     private PlaySteps steps;
     public bool firstWaveActive = false;
@@ -18,13 +18,13 @@ public class EventManager : MonoBehaviour
 
     private void Update()
     {
-        if (firstWaveActive && firstEnemyWave.Length == 0)
+        if (firstWaveActive && firstEnemyWave.Count == 0)
         {
             firstWaveActive = false;
             steps.PlayStepIndex(2);
         }
 
-        if (secondWaveActive && secondEnemyWave.Length == 0)
+        if (secondWaveActive && secondEnemyWave.Count == 0)
         {
             secondWaveActive = false;
             steps.PlayStepIndex(6);
@@ -33,12 +33,12 @@ public class EventManager : MonoBehaviour
 
     public void UpdateFirstArray()
     {
-        Destroy(firstEnemyWave[firstEnemyWave.Length - 1]);
+        firstEnemyWave.RemoveAt(firstEnemyWave.Count - 1);
     }
 
     public void UpdateSecondArray()
     {
-        Destroy(secondEnemyWave[secondEnemyWave.Length - 1]);
+        secondEnemyWave.RemoveAt(secondEnemyWave.Count - 1);
     }
 
     public void ActivateFirstEnemyWave()
