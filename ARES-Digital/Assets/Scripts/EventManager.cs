@@ -8,12 +8,13 @@ public class EventManager : MonoBehaviour
     [SerializeField] private List<GameObject> secondEnemyWave;
 
     private PlaySteps steps;
+
     public bool firstWaveActive = false;
     public bool secondWaveActive = false;
 
     private void Start()
     {
-        steps = FindObjectOfType<EventManager>().GetComponent<PlaySteps>();
+        steps = GameObject.FindGameObjectWithTag("NarrativeStoryManager").GetComponent<PlaySteps>();
     }
 
     private void Update()
