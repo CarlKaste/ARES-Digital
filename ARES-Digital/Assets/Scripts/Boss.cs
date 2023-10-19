@@ -8,6 +8,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private float maxHealth;
 
+    private PlaySteps playSteps;
     private float currentHealth;
 
     public bool agroTowardsPlayer = false;
@@ -16,6 +17,7 @@ public class Boss : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+        playSteps = GameObject.FindGameObjectWithTag("NarrativeStoryManager").GetComponent<PlaySteps>();
     }
 
     public void Die()
@@ -65,6 +67,7 @@ public class Boss : MonoBehaviour
         {
             Die();
             agroTowardsPlayer = false;
+            playSteps.PlayStepIndex(2);
         }
         else
         {

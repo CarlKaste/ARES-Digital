@@ -231,10 +231,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327666000000000
+  lastModified: 638333437480000000
   FileSizes:
   - Name: Desktop
-    Value: 2588
+    Value: 2634
   Exists: 1
 --- !u!114 &-5258780458445231215
 MonoBehaviour:
@@ -440,7 +440,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638327666000000000
+  lastModified: 638333437480000000
   FileSizes:
   - Name: Desktop
     Value: 22368
@@ -649,10 +649,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638327666000000000
+  lastModified: 638333437480000000
   FileSizes:
   - Name: Desktop
-    Value: 3118720
+    Value: 3119968
   Exists: 1
 --- !u!114 &-280662537669367111
 MonoBehaviour:
@@ -741,12 +741,13 @@ MonoBehaviour:
   - {fileID: 2966713034466317906}
   - {fileID: 6007362573086475715}
   - {fileID: -2638477694427821535}
+  - {fileID: 8136630047009137466}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638327666000000000
+  cacheTime: 638333437480000000
   cacheVersion: 131607
 --- !u!114 &298470053796961168
 MonoBehaviour:
@@ -952,7 +953,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638327666000000000
+  lastModified: 638333437480000000
   FileSizes:
   - Name: Desktop
     Value: 719296
@@ -1107,7 +1108,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327666000000000
+  lastModified: 638333437480000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -1220,6 +1221,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10560
+--- !u!114 &8136630047009137466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Virus sounds/Boss Virus roar
+  m_EditorClassIdentifier: 
+  Path: event:/Virus sounds/Boss Virus roar
+  Guid:
+    Data1: -1861514894
+    Data2: 1189955041
+    Data3: -1243896420
+    Data4: 1142186185
+  Banks:
+  - {fileID: -417431473674400195}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4056
 --- !u!114 &8451301706828289639
 MonoBehaviour:
   m_ObjectHideFlags: 0
