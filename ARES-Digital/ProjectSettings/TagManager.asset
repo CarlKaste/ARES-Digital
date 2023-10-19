@@ -9,6 +9,7 @@ TagManager:
   - PlayerHand
   - EventManager
   - NarrativeStoryManager
+  - Explosion
   layers:
   - Default
   - TransparentFX

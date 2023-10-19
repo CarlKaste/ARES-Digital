@@ -21,14 +21,15 @@ public class SpawnExplotion : MonoBehaviour
 
     public void SpawnExplotionEffect()
     {
-        if(hasFiredOnes == false)
+        effects[0] = Instantiate(explotionPrefab, this.transform.position, this.transform.rotation);
+        StartCoroutine(DespawnExplotionEffect());
+
+        if (hasFiredOnes == false)
         {
             hasFiredOnes = true;
             StartCoroutine(DelayEnemySpawnAfterUse());
         }
 
-        effects[0] = Instantiate(explotionPrefab, this.transform.position, this.transform.rotation);
-        StartCoroutine(DespawnExplotionEffect());
     }
 
     IEnumerator DelayEnemySpawnAfterUse()

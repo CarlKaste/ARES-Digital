@@ -9,11 +9,13 @@ public class Boss : MonoBehaviour
     [SerializeField] private float maxHealth;
     [SerializeField] private GameObject hitSound;
     [SerializeField] private GameObject deathSound;
+    [SerializeField] private GameObject burnBox;
 
     private PlaySteps playSteps;
     private float currentHealth;
 
     public bool agroTowardsPlayer = false;
+    public bool burnable = false;
 
 
     private void Start()
@@ -92,6 +94,11 @@ public class Boss : MonoBehaviour
             {
                 StartCoroutine(AttackCoroutine());
             }
+        }
+
+        if (burnable)
+        {
+
         }
     }
 }
