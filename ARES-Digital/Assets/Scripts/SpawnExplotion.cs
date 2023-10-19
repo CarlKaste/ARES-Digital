@@ -11,7 +11,7 @@ public class SpawnExplotion : MonoBehaviour
     private PlaySteps steps;
     private EventManager eventManager;
 
-    public bool hasFiredOnes = false;
+    public bool hasFiredOnes = true;
 
     private void Start()
     {
