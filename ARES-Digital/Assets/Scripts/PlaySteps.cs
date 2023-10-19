@@ -9,7 +9,6 @@ public class PlaySteps : MonoBehaviour
 
     [SerializeField] private List<Step> steps;
 
-    // Start is called before the first frame update
     void Start()
     {
         director = GetComponent<PlayableDirector>();
