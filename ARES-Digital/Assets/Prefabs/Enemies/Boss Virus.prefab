@@ -1510,8 +1510,8 @@ Transform:
   m_GameObject: {fileID: 5210427035459854975}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.0000024, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.5000024, z: 0}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4564046954972793919}
@@ -1600,6 +1600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   corpseFireEffectPrefab: {fileID: 2528823260134612293, guid: bd5e85d0d8154444483f7c484e5f9b63, type: 3}
+  fireOffset: {x: 0, y: 1, z: 0}
 --- !u!1 &5365843665091191149
 GameObject:
   m_ObjectHideFlags: 0
