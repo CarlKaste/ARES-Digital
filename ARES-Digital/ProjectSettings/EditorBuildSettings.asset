@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARES-Digital Tutorial Level.unity
+    guid: 2757413f9a8aee34fb54242ccb9f7d72
+  - enabled: 1
+    path: Assets/Scenes/ARES-Digital Tutorial Boss Level.unity
+    guid: 927c2b69734adbe40b99d43ff2620e7e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 35d907574ff00fe4e81ceda8185048ae, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f1738c52f1cee6a4fbb29004f542fe88, type: 2}
