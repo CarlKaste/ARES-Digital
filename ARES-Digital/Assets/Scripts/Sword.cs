@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     [SerializeField] private float swordDamage = 100f;
+    [SerializeField] private GameObject hitSound;
 
     private string attackType = "Sword";
 
@@ -16,7 +17,9 @@ public class Sword : MonoBehaviour
 
             if(enemy != null)
             {
+                hitSound.SetActive(true);
                 enemy.SwordKill();
+                hitSound.SetActive(false);
             }
         }
 
@@ -26,7 +29,10 @@ public class Sword : MonoBehaviour
 
             if(bossAnimator != null)
             {
+                hitSound.SetActive(true);
                 bossAnimator.SetTrigger("Hit");
+                hitSound.SetActive(false);
+
                 Boss bossScript = collision.gameObject.GetComponent<Boss>();
                 if(bossScript != null)
                 {
