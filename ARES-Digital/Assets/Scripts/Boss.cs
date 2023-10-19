@@ -7,6 +7,8 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private Animator animator;
     [SerializeField] private float maxHealth;
+    [SerializeField] private GameObject hitSound;
+    [SerializeField] private GameObject deathSound;
 
     private PlaySteps playSteps;
     private float currentHealth;
@@ -25,13 +27,17 @@ public class Boss : MonoBehaviour
         GetComponentInParent<CapsuleCollider>().enabled = false;
         agroTowardsPlayer = false;
         animator.SetTrigger("Die");
+        deathSound.SetActive(true);
     }
+
     IEnumerator HitByFireCoroutine()
     {
         animator.SetTrigger("FireHit");
+        hitSound.SetActive(true);
 
         yield return new WaitForSeconds(2f);
 
+        hitSound.SetActive(false);
         agroTowardsPlayer = true;
     }
 
