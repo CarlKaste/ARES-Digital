@@ -6,6 +6,7 @@ public class SpawnExplotion : MonoBehaviour
 {
     [SerializeField] private GameObject explotionPrefab;
     [SerializeField] private GameObject fireWallSphereTrigger;
+    [SerializeField] private GameObject explosionSound;
 
     private GameObject[] effects = new GameObject[3];
     private PlaySteps steps;
@@ -21,7 +22,10 @@ public class SpawnExplotion : MonoBehaviour
 
     public void SpawnExplotionEffect()
     {
+        explosionSound.SetActive(true);
         effects[0] = Instantiate(explotionPrefab, this.transform.position, this.transform.rotation);
+        explosionSound.SetActive(false);
+
         StartCoroutine(DespawnExplotionEffect());
 
         if (hasFiredOnes == false)

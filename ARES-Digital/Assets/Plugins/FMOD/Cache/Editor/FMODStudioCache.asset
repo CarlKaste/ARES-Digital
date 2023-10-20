@@ -231,10 +231,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638333437480000000
+  lastModified: 638333761160000000
   FileSizes:
   - Name: Desktop
-    Value: 2634
+    Value: 2674
   Exists: 1
 --- !u!114 &-5258780458445231215
 MonoBehaviour:
@@ -440,10 +440,10 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Mimetic Sounds.bank
   Name: Mimetic Sounds
   StudioPath: bank:/Mimetic Sounds
-  lastModified: 638333437480000000
+  lastModified: 638333761160000000
   FileSizes:
   - Name: Desktop
-    Value: 22368
+    Value: 59232
   Exists: 1
 --- !u!114 &-3429539900267449644
 MonoBehaviour:
@@ -649,7 +649,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Digetic Sounds.bank
   Name: Digetic Sounds
   StudioPath: bank:/Digetic Sounds
-  lastModified: 638333437480000000
+  lastModified: 638333761160000000
   FileSizes:
   - Name: Desktop
     Value: 3119968
@@ -742,12 +742,13 @@ MonoBehaviour:
   - {fileID: 6007362573086475715}
   - {fileID: -2638477694427821535}
   - {fileID: 8136630047009137466}
+  - {fileID: 4534583976334336427}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4983791415406262952}
   StringsBanks:
   - {fileID: -6038935848913485442}
-  cacheTime: 638333437480000000
+  cacheTime: 638333761160000000
   cacheVersion: 131607
 --- !u!114 &298470053796961168
 MonoBehaviour:
@@ -953,7 +954,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Non-Digetic sounds.bank
   Name: Non-Digetic sounds
   StudioPath: bank:/Non-Digetic sounds
-  lastModified: 638333437480000000
+  lastModified: 638333761160000000
   FileSizes:
   - Name: Desktop
     Value: 719296
@@ -1093,6 +1094,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4056
+--- !u!114 &4534583976334336427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/Explosion
+  Guid:
+    Data1: 168654362
+    Data2: 1157410131
+    Data3: -158400081
+    Data4: 703960835
+  Banks:
+  - {fileID: -3488861941500435208}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3375
 --- !u!114 &4983791415406262952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,7 +1136,7 @@ MonoBehaviour:
   Path: ../../ARES-Digital FMOD Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638333437480000000
+  lastModified: 638333761160000000
   FileSizes:
   - Name: Desktop
     Value: 1012
