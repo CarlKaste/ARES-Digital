@@ -472,7 +472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6535912955177641091
 Transform:
   m_ObjectHideFlags: 0
@@ -490,6 +490,7 @@ Transform:
   - {fileID: 4033776081739042068}
   - {fileID: 3256481018539877619}
   - {fileID: 565934461476487256}
+  - {fileID: 3105535776825770378}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2251139655412316629
@@ -529,6 +530,7 @@ MonoBehaviour:
   animator: {fileID: 2251139655412316629}
   deathEffect: {fileID: 8501854633757370396, guid: 6f1cdfbb768d9934bbf4dd196188df2e, type: 3}
   swordDeathSound: {fileID: 7796625459271525445}
+  fireDeathSound: {fileID: 7284451321609194075}
   spawnSound: {fileID: 2336060317639840259}
 --- !u!136 &4074969216281845756
 CapsuleCollider:
@@ -1884,6 +1886,69 @@ Transform:
   - {fileID: 5849484856593439883}
   m_Father: {fileID: 6535912955177641091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7284451321609194075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3105535776825770378}
+  - component: {fileID: 1708721526498410323}
+  m_Layer: 0
+  m_Name: Enemy Fire Death Sound Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3105535776825770378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284451321609194075}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6535912955177641091}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1708721526498410323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284451321609194075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -668477420
+      Data2: 1140426014
+      Data3: -16014701
+      Data4: -1217276896
+    Path: event:/Virus sounds/Virus burn death
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7443351617271915809
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject deathEffect;
     [SerializeField] private GameObject swordDeathSound;
+    [SerializeField] private GameObject fireDeathSound;
     [SerializeField] private GameObject spawnSound;
 
     private Transform player;
@@ -39,6 +40,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Burned()
     {
         GetComponent<CapsuleCollider>().enabled = false;
+        fireDeathSound.SetActive(true);
         StopCoroutine(AgroCoroutine());
         agroTowardsPlayer = false;
         animator.SetTrigger("BurnDeath");
